@@ -2,6 +2,7 @@
 # KanBan Board -- (QuickSell Assignment)
 
 As a part of quicksell assignment, kanban board website made using react.js for task management.
+Used the following API for data: https://api.quicksell.co/v1/internal/frontend-assignment 
 
 
 ## Salient Features
