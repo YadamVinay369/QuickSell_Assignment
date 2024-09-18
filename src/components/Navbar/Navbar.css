@@ -1,0 +1,38 @@
+
+.selectGroup{
+    padding: 3px;
+}
+
+.displayButton{
+    position: relative;
+}
+
+.dropOnClick{
+    position: absolute;
+    width: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10;box-shadow: 1px 1.5px 1px #d2d2ee;
+}
+
+.dropOnClick > *{
+    width: 100%;
+}
+
+.dropdown-heading{
+    color: rgb(118, 116, 116);
+}
+
+.btn{
+    background:  white;
+    border: 1px solid rgb(128, 128, 128);
+    border-radius: 12px;
+}
+
+.selectStyle{
+    width: 100px;
+    border-radius: 5px;
+    background: white;
+    padding: 2px 5px;
+}

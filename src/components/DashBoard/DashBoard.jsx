@@ -1,4 +1,5 @@
 import React from "react";
+import "./DashBoard.css";
 import { useSelector } from "react-redux";
 import { BiCompass } from "react-icons/bi";
 import { AiOutlinePlus } from "react-icons/ai";

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { TiThList } from "react-icons/ti";
-import "./TopNav.css";
+import "./Navbar.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectData } from "../../Actions/DataAction";
 
