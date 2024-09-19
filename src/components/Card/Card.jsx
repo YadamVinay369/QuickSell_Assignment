@@ -10,9 +10,21 @@ const Card = ({ id, title, tag, status }) => {
         </span>
         <div
           className="imageContainer relative"
-          style={{ width: "30px", height: "30px" }}
+          style={{
+            width: "20px",
+            height: "20px",
+            display: "inline-block",
+          }}
         >
-          <div className="showStatus"></div>
+          <img
+            style={{
+              width: "100%",
+              height: "100%",
+              borderRadius: "50%",
+            }}
+            src="https://avatar.iran.liara.run/public"
+            alt="user"
+          />
         </div>
       </div>
       <div className="cardTitle" style={{ fontWeight: 200, fontSize: "13px" }}>
