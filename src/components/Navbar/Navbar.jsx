@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { TiThList } from "react-icons/ti";
 import "./Navbar.css";
 import { useDispatch, useSelector } from "react-redux";
-import { selectData } from "../../Actions/DataAction";
+import { selectData } from "../../Redux/Actions/DataAction";
 
 const getGroup = () => {
   if (localStorage.getItem("group")) {

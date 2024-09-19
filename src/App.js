@@ -3,7 +3,7 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import DashBoard from "./components/DashBoard/DashBoard";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchAllData } from "./Actions/DataAction";
+import { fetchAllData } from "./Redux/Actions/DataAction";
 import Loader from "./components/Loader/Loader";
 
 const App = () => {
